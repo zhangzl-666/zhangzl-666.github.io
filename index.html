@@ -1,0 +1,298 @@
+<!DOCTYPE html>                      <!-- 声明文档类型为HTML5 -->
+<html lang="zh-CN">                  <!-- 根标签，设置语言为中文 -->
+<head>                                <!-- 头部标签，包含元数据 -->
+    <meta charset="UTF-8">           <!-- 设置字符编码为UTF-8 -->
+    <title>学生自我介绍</title>       <!-- 页面标题，显示在浏览器标签上 -->
+</head>                               <!-- 头部标签结束 -->
+
+<body>  <!-- 主体标签，设置页面边距、字体和文字颜色 -->
+
+    <!-- 整体容器 -->
+    <div>
+        <!-- 顶部标题 -->
+        <div style="
+            background: #4a90e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        ">  <!-- 标题区域，设置背景色、文字颜色、内边距和居中对齐 -->
+            <h1 style="
+                margin: 0;
+                font-size: 24px;
+            ">个人自我介绍</h1>  <!-- 一级标题，设置无边距和字体大小 -->
+        </div>
+
+        <!-- 主要内容区 -->
+        <div style="
+            display: flex;
+            flex-wrap: wrap;
+        ">  <!-- 使用flex(弹性）布局，允许内容换行 -->
+
+            <!-- 左侧照片区 -->
+            <div style="
+                width: 100%;
+                max-width: 300px;
+                text-align: center;
+                padding: 20px;
+                box-sizing: border-box;
+                border-right: 1px solid #eee;
+            ">  <!-- 左侧区域，设置宽度、居中对齐、内边距和右边框 -->
+                <img src="0.png"
+                     alt="个人照片"
+                     style="
+                        width: 180px;
+                        height: 180px;
+                        border-radius: 50%;
+                        border: 5px solid #e6f2ff;
+                        margin-bottom: 15px;
+                    ">  <!-- 图片标签，设置图片源、替代文本、尺寸、圆形和边框 -->
+                <h2 style="
+                    color: #4a90e2;
+                    font-size: 20px;
+                ">李同学</h2>  <!-- 二级标题，设置颜色和字体大小 -->
+                <p style="
+                    color: #666;
+                ">高三（1）班</p>  <!-- 段落标签，设置文字颜色 -->
+            </div>
+
+            <!-- 右侧信息区 -->
+            <div style="
+                flex: 3;
+                padding: 20px;
+            ">  <!-- 右侧区域，设置弹性占比和内边距 -->
+
+                <!-- 基本信息 -->
+                <div style="
+                    margin-bottom: 20px;
+                ">  <!-- 基本信息区块，设置底部边距 -->
+                    <h3 style="
+                        color: #4a90e2;
+                        font-size: 18px;
+                        display: flex;
+                        align-items: center;
+                    ">
+                        **基本信息**  <!-- 标题文本 -->
+                    </h3>
+
+                    <table style="
+                        width: 100%;
+                    ">  <!-- 表格标签，设置宽度为100% -->
+                        <tr>  <!-- 表格行 -->
+                            <td style="
+                                width: 90px;
+                                font-weight: bold;
+                            ">姓名：</td>  <!-- 表格单元格，设置宽度和加粗 -->
+                            <td>李同学</td>  <!-- 表格单元格，显示内容 -->
+                            <td style="
+                                width: 90px;
+                                font-weight: bold;
+                            ">年龄：</td>  <!-- 表格单元格，设置宽度和加粗 -->
+                            <td>18岁</td>  <!-- 表格单元格，显示内容 -->
+                        </tr>
+
+                        <tr>  <!-- 表格行 -->
+                            <td style="
+                                width: 90px;
+                                font-weight: bold;
+                            ">学校：</td>  <!-- 表格单元格，设置加粗 -->
+                            <td>XX市第一中学</td>  <!-- 表格单元格，跨3列 -->
+                        </tr>
+
+                        <tr>  <!-- 表格行 -->
+                            <td style="
+                                width: 90px;
+                                font-weight: bold;
+                            ">班级：</td>  <!-- 表格单元格，设置加粗 -->
+                            <td>高三（1）班</td>  <!-- 表格单元格，跨3列 -->
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- 兴趣爱好 -->
+                <div style="
+                    margin-bottom: 20px;
+                ">  <!-- 兴趣爱好区块，设置底部边距 -->
+                    <h3 style="
+                        color: #4a90e2;
+                        font-size: 18px;
+                        display: flex;
+                        align-items: center;
+                    ">  <!-- 三级标题，设置颜色、字体大小和垂直居中 -->
+
+                        **兴趣爱好**  <!-- 标题文本 -->
+                    </h3>
+
+                    <div style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                    ">  <!-- 使用flex布局，允许换行并设置间距 -->
+                        <div style="
+                            background: #f5f9ff;
+                            padding: 15px;
+                            width: calc(50% - 5px);
+                            box-sizing: border-box;
+                        ">  <!-- 兴趣卡片，设置背景色、内边距和宽度 -->
+                            <p style="
+                                font-weight: bold;
+                                color: #4a90e2;
+                            ">绘画</p>  <!-- 段落标签，设置加粗和颜色 -->
+                            <p style="
+                                font-size: 14px;
+                            ">素描6级，校园绘画比赛二等奖</p>  <!-- 段落标签，设置字体大小 -->
+                        </div>
+
+                        <div style="
+                            background: #f5f9ff;
+                            padding: 15px;
+                            width: calc(50% - 5px);
+                            box-sizing: border-box;
+                        ">  <!-- 兴趣卡片，同上 -->
+                            <p style="
+                                font-weight: bold;
+                                color: #4a90e2;
+                            ">阅读</p>  <!-- 段落标签，同上 -->
+                            <p style="
+                                font-size: 14px;
+                            ">每月读3-4本书，偏爱科幻文学</p>  <!-- 段落标签，同上 -->
+                        </div>
+
+                        <div style="
+                            background: #f5f9ff;
+                            padding: 15px;
+                            width: calc(50% - 5px);
+                            box-sizing: border-box;
+                        ">  <!-- 兴趣卡片，同上 -->
+                            <p style="
+                                font-weight: bold;
+                                color: #4a90e2;
+                            ">吉他</p>  <!-- 段落标签，同上 -->
+                            <p style="
+                                font-size: 14px;
+                            ">自学3年，能弹唱100+首歌曲</p>  <!-- 段落标签，同上 -->
+                        </div>
+
+                        <div style="
+                            background: #f5f9ff;
+                            padding: 15px;
+                            width: calc(50% - 5px);
+                            box-sizing: border-box;
+                        ">  <!-- 兴趣卡片，同上 -->
+                            <p style="
+                                font-weight: bold;
+                                color: #4a90e2;
+                            ">篮球</p>  <!-- 段落标签，同上 -->
+                            <p style="
+                                font-size: 14px;
+                            ">校篮球队成员，联赛亚军</p>  <!-- 段落标签，同上 -->
+                        </div>
+                    </div>
+                </div>
+<!-- 技能特长 -->
+                <div style="
+                    margin-bottom: 20px;
+                    text-align: center;  <!-- 整体内容居中 -->
+                ">  <!-- 技能特长区块，设置底部边距 -->
+                    <h3 style="
+                        color: #4a90e2;
+                        font-size: 18px;
+                        text-align: center;  <!-- 标题文本居中 -->
+                    ">  <!-- 三级标题，设置颜色和字体大小 -->
+                        **技能特长**  <!-- 标题文本 -->
+                    </h3>
+
+                    <div style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                    ">  <!-- 使用flex布局，允许换行并设置间距 -->
+                        <div style="
+                            background: #f5f9ff;
+                            padding: 15px;
+                            width: calc(50% - 5px);
+                            box-sizing: border-box;
+                            text-align: center;  <!-- 卡片内容居中 -->
+                        ">  <!-- 技能卡片，设置背景色、内边距、圆角和宽度 -->
+                            <p style="
+                                font-weight: bold;
+                                color: #4a90e2;
+                            ">英语</p>  <!-- 段落标签，设置加粗和颜色 -->
+                            <p style="
+                                font-size: 14px;
+                            ">托福105分，口语流利</p>  <!-- 段落标签，设置字体大小 -->
+                        </div>
+
+                        <div style="
+                            background: #f5f9ff;
+                            padding: 15px;
+                            width: calc(50% - 5px);
+                            box-sizing: border-box;
+                            text-align: center;  <!-- 卡片内容居中 -->
+                        ">  <!-- 技能卡片，同上 -->
+                            <p style="
+                                font-weight: bold;
+                                color: #4a90e2;
+                            ">编程</p>  <!-- 段落标签，同上 -->
+                            <p style="
+                                font-size: 14px;
+                            ">Python基础，校园系统开发</p>  <!-- 段落标签，同上 -->
+                        </div>
+
+                        <div style="
+                            background: #f5f9ff;
+                            padding: 15px;
+                            width: calc(50% - 5px);
+                            box-sizing: border-box;
+                            text-align: center;  <!-- 卡片内容居中 -->
+                        ">  <!-- 技能卡片，同上 -->
+                            <p style="
+                                font-weight: bold;
+                                color: #4a90e2;
+                            ">演讲</p>  <!-- 段落标签，同上 -->
+                            <p style="
+                                font-size: 14px;
+                            ">校级比赛冠军，活动主持人</p>  <!-- 段落标签，同上 -->
+                        </div>
+
+                        <div style="
+                            background: #f5f9ff;
+                            padding: 15px;
+                            width: calc(50% - 5px);
+                            box-sizing: border-box;
+                            text-align: center;  <!-- 卡片内容居中 -->
+                        ">  <!-- 技能卡片，同上 -->
+                            <p style="
+                                font-weight: bold;
+                                color: #4a90e2;
+                            ">PS设计</p>  <!-- 段落标签，同上 -->
+                            <p style="
+                                font-size: 14px;
+                            ">班级海报设计，Photoshop熟练</p>  <!-- 段落标签，同上 -->
+                        </div>
+                    </div>
+
+                <!-- 自我介绍 -->
+                <div>  <!-- 自我介绍区块 -->
+                    <h3 style="
+                        color: #4a90e2;
+                        font-size: 18px;
+                        display: flex;
+                        align-items: center;
+                    ">  <!-- 三级标题，设置颜色、字体大小和垂直居中 -->
+                        自我介绍  <!-- 标题文本 -->
+                    </h3>
+
+                    <p style="
+                        line-height: 1.6;
+                        font-size: 15px;
+                    ">  <!-- 段落标签，设置行高和字体大小 -->
+                        我是一个开朗乐观的学生，学习上注重逻辑
+                        思维。作为班长，组织过校园文化节。课余喜欢绘画、阅读和
+                        编程，希望未来能探索更多领域。  <!-- 段落内容 -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
